@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Refresh"/>
+
+    <item
+        android:title="Forward"
+        android:id="@+id/forward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"
+        />
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"/>
+   <item
+       android:title="Downloads"
+       android:icon="@drawable/ic_arrow_downward_black_24dp"
+       android:id="@+id/downloadButton"
+       app:showAsAction="never"/>
+    <item
+        android:title="Delete History"
+        android:id="@+id/delete_history"
+        app:showAsAction="never"/>
+    <item
+        android:title="Quit"
+        android:id="@+id/quit"
+        app:showAsAction="never"/>
+
+
+</menu>
